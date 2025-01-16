@@ -15,8 +15,18 @@
       "@app": ["./src/app"],
       "@app/*": ["./src/app/*"],
       "@entities": ["./src/entities"],
-      "@entities/*": ["./src/entities/*"]
+      "@entities/*": ["./src/entities/*"],
+      "@shared": ["./src/shared"],
+      "@shared/*": ["./src/shared/*"],
+      "@widgets": ["./src/widgets"],
+      "@widgets/*": ["./src/widgets/*"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "vite-env.d.ts"]
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "vite-env.d.ts",
+    "global.d.ts"
+  ]
 }
